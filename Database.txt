@@ -1,0 +1,15 @@
+CREATE TABLE redmine_entries ( redmine_entry_id INT(10),
+user_name VARCHAR(60),
+project_type VARCHAR(40),
+project_name VARCHAR(100),
+ticket_number INT(10),
+ticket_description VARCHAR(255),
+spent_date DATE,
+created_date DATETIME,
+updated_date DATETIME,
+spent_hours INT(10),
+billing_category VARCHAR(20),
+activity VARCHAR(60),
+comments VARCHAR(255),
+PRIMARY KEY (redmine_entry_id)
+);
