@@ -9,13 +9,13 @@ import getpass
 
 #Config Goes Here
 #=====================
-REDMINE_URL="https://portal.optimusinfo.com/redmine"
+REDMINE_URL="https://redmine.com/"
 IMPORT_FOR_DAYS = 7
 REDMINE_USERNAME = 'udham.singh'
-REDMINE_PASSWORD= 'optimus'
+REDMINE_PASSWORD= '*****'
 DB_SERVER = 'localhost'
 DB_USERNAME = 'root'
-DB_PASSWORD = 'optimus'
+DB_PASSWORD = '*****'
 DB_DATABASENAME = 'RedmineReport'
 # Variable declarations goes here.
 
